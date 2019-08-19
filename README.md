@@ -4,4 +4,6 @@ The terms in the polynomial must have whole number constants. <br> <br>
 To run:
 * install ocamllex, menhir and ocamlbuild with opam
 * install make (not needed on Linux or Mac)
+* Put any additional tests in the tests directory
 * Run make clean && make tests
+* The results are in the *.out files in the tests directory
